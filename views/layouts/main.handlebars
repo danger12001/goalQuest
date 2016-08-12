@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Goal Quest </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link href="/css/main.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+  <div id="details" class="row">
+  <div id="profilePicBox" class="col s4">
+    <img id="profilePic">
+
+
+  </div>
+  <div id="detailBox" class="col s8">
+  <div id="name" class="center">Full Name</div>
+  <div id="level" class="center"> ?? </div>
+  <div id="xpBar">
+  <div id="percentage" class="center"> ?? / ??</div>
+
+    <div id="bar" class="progress">
+        <div class="determinate" style="width: 10%"></div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+
+
+
+    <nav>
+      <div class="nav-wrapper blue darken-2 ">
+        <ul id="nav-mobile" class="left">
+
+        <li><a href="/"> Home </a></li>
+        <li><a href="/goals"> Goals </a></li>
+        <li><a href="/profile"> Profile </a></li>
+
+        <li>
+          <a class='dropdown-button'  data-activates='dropdown2'>Tools</a>
+        </li>
+
+        </ul>
+<ul id='dropdown2' class='dropdown-content'>
+  <li><a href="/budget">Budget</a></li>
+  <li><a href="/todo">ToDo list</a></li>
+
+</ul>
+</div>
+</nav>
+
+  <div id="container">
+    {{{body}}}
+  </div>
+
+  <footer id="footer" class="page-footer blue darken-2 ">
+            <div class="footer-copyright">
+              <div class="container">
+              Created By: Paul Robertson 2016
+              <a class="grey-text text-lighten-4 right" href="https://github.com/danger12001">See my GitHub Page!</a>
+              </div>
+            </div>
+          </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+
+
+<script>
+$(document).ready(function(){
+
+  $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: false // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    });
+});
+
+</script>
+
+  </body>
+
+</html>
