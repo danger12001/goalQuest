@@ -17,6 +17,8 @@
     "body-parser": "~1.15.2",
     "express-flash": "0.0.2",
     "express-session": "~1.14.0",
-    "nodemon": "~1.10.0"
+    "nodemon": "~1.10.0",
+    "b": "~2.0.1",
+    "express-myconnection": "~1.0.4"
   }
 }

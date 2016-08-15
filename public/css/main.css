@@ -11,20 +11,12 @@
 #footer {
   margin-top: 0px;
 }
-#details {
+/*#details {
   height: 250px;
   margin-bottom: 10px;
   width: 100%;
-}
+}*/
 
-#profilePicBox {
-  /*margin-top: 1%;*/
-  /*margin-bottom: 1%;*/
-  margin: 1%;
-  width: 17%;
-  border: 1px solid black;
-  height: 90%;
-}
 #detailBox {
   margin: 1%;
 }
